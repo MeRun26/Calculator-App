@@ -1,0 +1,50 @@
+.calculator {
+	width: 240px;
+	margin: 50px auto;
+	border: 1px solid rgb(130, 130, 130);
+	border-radius: 15px;
+	padding: 20px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	background-color: rgb(0, 0, 255);
+}
+
+.display {
+	height: 30px;
+	background-color: rgb(255, 255, 255);
+	padding: 10px;
+	text-align: right;
+	margin-bottom: 10px;
+	font-size: 24px;
+	border: 2px solid rgb(255, 0, 0);
+	border-radius: 15px;
+}
+
+.defaultColor {
+	color: rgb(0, 0, 0);
+}
+
+.resultColor {
+	color: rgb(30, 130, 30);
+}
+
+.table {
+	border-collapse: collapse;
+}
+
+td {
+	padding: 5px;
+}
+
+.button {
+	width: 50px;
+	height: 50px;
+	border: 1px solid rgb(0, 0, 0);
+	text-align: center;
+	cursor: pointer;
+	font-size: 18px;
+	border-radius: 15px;
+}
+
+.button:hover {
+	background-color: rgb(0, 255, 0);
+}
